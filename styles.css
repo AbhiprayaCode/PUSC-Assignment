@@ -1,0 +1,338 @@
+* {
+  font-family: "Rubik", sans-serif;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+/* NAVBAR */
+
+nav.navbar {
+  background-color: #333532;
+}
+
+.navbar-nav.navbar-item a:active {
+  color: white;
+}
+
+/* JUMBOTRON */
+
+#jumbotron {
+  height: 100vh;
+  background-color: #333532;
+  color: white;
+}
+
+#jumbotron .name-section {
+  font-size: 10px;
+  padding-top: 16px;
+}
+
+#jumbotron .name-section img {
+  margin-bottom: 16px;
+}
+
+/* ABOUT */
+
+#about {
+  background-color: #4b4d49;
+  color: white;
+  height: max-content;
+  padding-bottom: 100px;
+}
+
+#about .about-me {
+  text-decoration: underline;
+  color: #f2be22;
+  padding-top: 20px;
+  padding-bottom: 12px;
+  text-shadow: 1px 1px black;
+}
+
+#about .paragraph {
+  padding-bottom: 10px;
+}
+
+/* CERTIFICATION */
+#certification {
+  height: 100vh;
+  background-color: #333532;
+}
+
+#certification h2 {
+  text-decoration: underline;
+  color: #f2be22;
+  text-shadow: 1px 1px black;
+  padding-bottom: 20px;
+}
+
+#certification .card {
+  background-color: #d8d9d7;
+}
+
+/* PROJECT */
+
+#project {
+  background-color: #4b4d49;
+  height: 100vh;
+}
+
+#project h2 {
+  text-decoration: underline;
+  color: #f2be22;
+  text-shadow: 1px 1px black;
+}
+
+#project .row .card {
+  background-color: #d8d9d7;
+}
+
+section {
+  padding-top: 5rem;
+}
+
+.link {
+  text-decoration: none;
+  color: white;
+}
+
+div.card h3 {
+  font-weight: bold;
+  font-size: 22px;
+}
+
+div.card:hover {
+  transform: translateY(2px);
+}
+
+div.button {
+  margin-bottom: 10px;
+  margin-right: 12px;
+}
+
+div.button a {
+  border: none;
+  padding: 6px 30px;
+  border-radius: 14px;
+  color: black;
+  font-size: 18px;
+  font-weight: bold;
+  font-family: monospace;
+  background-color: #e4af10;
+}
+
+/* CONTACT */
+#contact {
+  background-color: #333532;
+  height: 100vh;
+}
+
+#contact h2 {
+  text-decoration: underline;
+  color: #f2be22;
+  text-shadow: 1px 1px black;
+}
+
+#contact form label {
+  color: white;
+}
+
+/* Social Media */
+
+#social {
+  width: 100%;
+  height: 100vh;
+  background-color: #4b4d49;
+  margin: auto;
+  padding-top: 20%;
+  text-align: center;
+  color: white;
+  text-shadow: 1px 1px black;
+}
+
+#social .penutup h1 {
+  font-size: 3.5rem;
+  margin-bottom: 10px;
+}
+
+#social .penutup p {
+  font-size: 1.3rem;
+  font-style: italic;
+}
+
+#social ul li {
+  margin-right: 30px;
+  margin-left: 20px;
+  list-style: none;
+  display: inline-block;
+}
+
+#social ul li a i:hover {
+  transform: translateY(2px);
+}
+
+.fa-brands {
+  text-decoration: none;
+  font-size: 50px;
+  color: white;
+}
+
+/* FOOTER */
+footer {
+  background-color: #333532;
+  padding-bottom: 3px;
+  padding-top: 7px;
+}
+
+footer p {
+  font-size: 16px;
+}
+
+/* MEDIA */
+
+@media screen and (max-width: 1200px) {
+  #jumbotron img {
+    transform: translateY(-50px);
+    width: 229px;
+    margin: auto;
+  }
+}
+
+@media screen and (max-width: 1000px) {
+  #jumbotron {
+    background-color: #333532;
+    color: white;
+    justify-items: center;
+    height: 100vh;
+    padding-top: 8rem;
+  }
+
+  #jumbotron img {
+    width: 240px;
+    margin: auto;
+  }
+
+  #jumbotron .name-section {
+    transform: translateY(-50px);
+    font-size: 10px;
+    padding-top: 0;
+  }
+
+  #about {
+    margin: auto;
+    height: max-content;
+  }
+
+  #about .about-me {
+    padding-bottom: 5px;
+  }
+
+  #about .container p {
+    font-size: 18px;
+  }
+
+  #project {
+    height: max-content;
+    padding-bottom: 30px;
+  }
+
+  #contact {
+    height: max-content;
+    padding-bottom: 8rem;
+  }
+
+  #social {
+    padding-top: 25%;
+    height: 100vh;
+  }
+
+  #social .penutup h1 {
+    font-size: 2rem;
+  }
+
+  #social .penutup p {
+    font-size: 1rem;
+  }
+
+  footer {
+    height: max-content;
+  }
+}
+
+@media screen and (max-width: 800px) {
+  #jumbotron img {
+    width: 240px;
+    margin: auto;
+  }
+
+  #jumbotron .name-section h4 {
+    font-size: 40px;
+  }
+
+  #jumbotron .name-section p {
+    font-size: 20px;
+  }
+
+  #about {
+    height: max-content;
+    padding-top: 10px;
+    padding-bottom: 5rem;
+  }
+
+  #about .container p {
+    font-size: 14px;
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+
+  #certification {
+    height: max-content;
+    padding-bottom: 30px;
+  }
+
+  #project {
+    height: max-content;
+    padding-bottom: 30px;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  #jumbotron {
+    padding-top: 60%;
+  }
+
+  #about {
+    padding-top: 20%;
+    padding-bottom: 5rem;
+  }
+
+  #certification,
+  #project,
+  #contact {
+    padding-left: 30px;
+    padding-right: 30px;
+  }
+
+  #contact {
+    padding-top: 5rem;
+    padding-bottom: 6rem;
+    height: max-content;
+  }
+
+  #certification .container .row .card,
+  #project .container .row .card {
+    margin-bottom: 20px;
+  }
+
+  #social {
+    height: 100vh;
+    padding-top: 11rem;
+    margin: auto;
+  }
+
+  #social ul {
+    margin-left: 0px;
+    margin-right: 20px;
+  }
+}
