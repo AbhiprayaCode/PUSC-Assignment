@@ -9,7 +9,7 @@ html {
 /* NAVBAR */
 
 nav.navbar {
-  background-color: #333532;
+  background-color: #2a2b29;
 }
 
 .navbar-nav.navbar-item a:active {
@@ -47,23 +47,54 @@ nav.navbar {
   color: #f2be22;
   padding-top: 20px;
   padding-bottom: 12px;
-  text-shadow: 1px 1px black;
+  text-shadow: 1px 1px rgb(37, 37, 37);
 }
 
 #about .paragraph {
   padding-bottom: 10px;
 }
 
+/* TOOLS */
+section#tools {
+  background-color: #333532;
+  height: 100vh;
+}
+
+#tools h2 {
+  text-decoration: underline;
+  color: #f2be22;
+  text-shadow: 1px 1px rgb(37, 37, 37);
+  padding-bottom: 20px;
+  padding-top: 20px;
+}
+
+#tools div.card-framework {
+  background-color: #d8d9d7;
+  max-width: 500px;
+  height: max-content;
+  margin: auto;
+}
+
+#tools div.card-framework svg {
+  max-width: 80px;
+  max-height: 80px;
+  margin: 10px;
+}
+
+#tools div.card-framework div.framework {
+  padding: 2rem;
+}
+
 /* CERTIFICATION */
 #certification {
   height: 100vh;
-  background-color: #333532;
+  background-color: #4b4d49;
 }
 
 #certification h2 {
   text-decoration: underline;
   color: #f2be22;
-  text-shadow: 1px 1px black;
+  text-shadow: 1px 1px rgb(37, 37, 37);
   padding-bottom: 20px;
 }
 
@@ -74,14 +105,14 @@ nav.navbar {
 /* PROJECT */
 
 #project {
-  background-color: #4b4d49;
+  background-color: #333532;
   height: 100vh;
 }
 
 #project h2 {
   text-decoration: underline;
   color: #f2be22;
-  text-shadow: 1px 1px black;
+  text-shadow: 1px 1px rgb(37, 37, 37);
 }
 
 #project .row .card {
@@ -122,16 +153,20 @@ div.button a {
   background-color: #e4af10;
 }
 
+div.button a:hover {
+  background-color: #f5da87;
+}
+
 /* CONTACT */
 #contact {
-  background-color: #333532;
+  background-color: #4b4d49;
   height: 100vh;
 }
 
 #contact h2 {
   text-decoration: underline;
   color: #f2be22;
-  text-shadow: 1px 1px black;
+  text-shadow: 1px 1px rgb(37, 37, 37);
 }
 
 #contact form label {
@@ -143,7 +178,7 @@ div.button a {
 #social {
   width: 100%;
   height: 100vh;
-  background-color: #4b4d49;
+  background-color: #333532;
   margin: auto;
   padding-top: 20%;
   text-align: center;
@@ -180,7 +215,7 @@ div.button a {
 
 /* FOOTER */
 footer {
-  background-color: #333532;
+  background-color: #2a2b29;
   padding-bottom: 3px;
   padding-top: 7px;
 }
@@ -309,9 +344,14 @@ footer p {
 
   #certification,
   #project,
-  #contact {
+  #contact,
+  #tools {
     padding-left: 30px;
     padding-right: 30px;
+  }
+
+  #tools {
+    height: max-content;
   }
 
   #contact {
